@@ -1,0 +1,21 @@
+torch==2.4.1
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+scikit-learn==1.7.2
+scanpy==1.11.5
+anndata==0.11.4
+h5py==3.16.0
+scikit-misc==0.5.2
+transformers==4.49.0
+safetensors==0.8.0
+requests==2.34.2
+# used by scgpt
+tqdm==4.70.1
+ipython==8.39.0
+matplotlib==3.10.9
+seaborn==0.13.2
+numba==0.67.0
+networkx==3.4.2
+datasets==5.0.1
+typing_extensions==4.16.0

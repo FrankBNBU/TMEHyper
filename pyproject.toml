@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tmehyper"
+version = "1.0.0"
+description = "Spatial perturbation-response prediction with a group hypergraph of the tumour microenvironment"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "torch>=2.4",
+    "numpy>=2.0",
+    "scipy>=1.15",
+    "pandas>=2.3",
+    "scikit-learn>=1.7",
+    "scanpy>=1.11",
+    "anndata>=0.11",
+]
+
+[project.optional-dependencies]
+nicheformer = ["transformers>=4.49", "safetensors>=0.8", "requests>=2.34"]
+data = ["scikit-misc>=0.5"]
+
+[tool.setuptools]
+packages = ["tmehyper"]

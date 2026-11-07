@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.egg-info/
+runs/
+results/
+*.h5ad
+!data/*.h5ad
+data/PerturbFISH.h5ad
+*.npy
+*.npz
+*.pt
+.DS_Store
